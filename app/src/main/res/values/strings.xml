@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Transactions List</string>
+    <string name="currency_usd">US$%$.2f</string>
+    <string name="currency_eur">€%$.2f</string>
+    <string name="currency_gbd">£%$.2f</string>
+</resources>
