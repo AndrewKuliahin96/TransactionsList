@@ -1,3 +1,5 @@
 package com.example.transactionslist.network.response
 
-data class TransactionsResponse(val transactions: List<TransactionResponse>)
+import com.google.gson.annotations.SerializedName
+
+data class TransactionsResponse(@SerializedName("transactions") val transactions: List<TransactionResponse>)

@@ -10,6 +10,6 @@ class TransactionsProvider(
 ) {
 
     suspend fun getTransactions(): List<TransactionModel?>? {
-        return api.getTransactions()?.response?.map { converter.convert(it) }
+        return api.getTransactions()?.transactions?.map { converter.convert(it) }
     }
 }
